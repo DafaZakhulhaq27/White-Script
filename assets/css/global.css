@@ -1,0 +1,59 @@
+body {
+  font-family: "Kentledge-Regular";
+  color: #3f567d;
+  background-color: #e6eaf3;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: transparent !important;
+  color: #3f567d !important;
+  border: 2px solid #3f567d !important;
+}
+.blurred-text {
+  animation: blurredText 2s linear;
+  -webkit-animation: blurredText 2s linear;
+}
+@-webkit-keyframes blurredText {
+  0% {
+    color: transparent;
+    text-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    color: #3f567d;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes blurredText {
+  0% {
+    color: transparent;
+    text-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    color: #3f567d;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.fade {
+  animation: fadeIn 3s linear infinite;
+  -webkit-animation: fadeIn 3s linear infinite;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 3;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 3;
+  }
+}
