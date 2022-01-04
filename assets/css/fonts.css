@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Kentledge-Black;
+  src: url(../fonts/Kentledge-Black.otf);
+}
+@font-face {
+  font-family: Kentledge-BlackItalic;
+  src: url(../fonts/Kentledge-BlackItalic.otf);
+}
+@font-face {
+  font-family: Kentledge-Bold;
+  src: url(../fonts/Kentledge-Bold.otf);
+}
+@font-face {
+  font-family: Kentledge-Light;
+  src: url(../fonts/Kentledge-Light.otf);
+}
+@font-face {
+  font-family: Kentledge-Italic;
+  src: url(../fonts/Kentledge-Italic.otf);
+}
+@font-face {
+  font-family: Kentledge-Medium;
+  src: url(../fonts/Kentledge-Medium.otf);
+}
+@font-face {
+  font-family: Kentledge-Regular;
+  src: url(../fonts/Kentledge-Regular.otf);
+}
+@font-face {
+  font-family: Kentledge-Thin;
+  src: url(../fonts/Kentledge-Thin.otf);
+}

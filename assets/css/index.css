@@ -1,0 +1,28 @@
+@import "fonts.css";
+body {
+  font-family: "Kentledge-Regular";
+  color: #3f567d;
+  background-color: #e6eaf3;
+}
+.btn-primary {
+  background-color: transparent !important;
+  color: #3f567d !important;
+  border: 2px solid #3f567d !important;
+}
+
+/* navbar */
+.logo {
+  height: 51;
+}
+.nav-item {
+  margin-left: 20px;
+}
+.nav-link {
+  font-size: 18px;
+  color: #3f567d !important;
+  transition: 0.5s;
+}
+.nav-link:hover {
+  text-decoration: line-through;
+  text-decoration-thickness: 4px;
+}
