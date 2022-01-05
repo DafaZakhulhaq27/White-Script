@@ -9,6 +9,10 @@
   color: #3f567d !important;
   transition: 0.5s;
 }
+.active {
+  text-decoration: line-through;
+  text-decoration-thickness: 4px;
+}
 .nav-link:hover {
   text-decoration: line-through;
   text-decoration-thickness: 4px;
