@@ -1,6 +1,12 @@
 .logo {
-  height: 51;
+  height: 51px;
 }
+@media only screen and (max-width: 768px) {
+  .logo {
+    height: 31px;
+  }
+}
+
 .nav-item {
   margin-left: 20px;
 }

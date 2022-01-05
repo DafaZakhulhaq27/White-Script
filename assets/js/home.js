@@ -3,6 +3,7 @@ var text = [
   "Television Commercials",
   "Digital Videos",
   "Television Production",
+  "Audiobooks",
 ];
 
 var counter = 0;
