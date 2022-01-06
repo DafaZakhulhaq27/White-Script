@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    /* position the div in center */
+    margin: 40vh auto 0;
+    transform: translateY(-50%);
+}
+
+.text-1 {
+    position: relative;
+    margin-left: -200px;
+    left: -250px;
+    top: -50px;
+    animation: text-1 ease 5s;
+    animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text-1 {
+    0% {
+        left: -250px;
+        top: -50px;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.text-2 {
+    position: absolute;
+    animation: text-2 ease 5s ;
+    animation-delay: 0.5s;
+    margin-left: -150px;
+    bottom: -250px;
+
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text-2 {
+    0% {
+        margin-left: -150px;
+        bottom: -250px;
+    }
+
+    100% {
+        margin-left: -150px;
+        bottom: -100px;
+    }
+}
+
+.text-3 {
+    position: relative;
+    animation: text-3 ease 5s;
+    right: -120px;
+    animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text-3 {
+    0% {
+        right: -120px;
+    }
+
+    100% {
+        right: 0px;
+    }
+}
+
+.text-4 {
+    position: relative;
+    animation: text-4 ease 5s;
+    bottom: -250px;
+    right: -250px;
+    animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text-4 {
+    0% {
+        bottom: -250px;
+        right: -250px;
+    }
+
+    100% {
+        bottom: -100px;
+        right: -50px;
+    }
+}
+
+.text-5 {
+    position: relative;
+    animation: text-5 ease 5s;
+    bottom: -350px;
+    right: -350px;
+    animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text-5 {
+    0% {
+        bottom: -350px;
+        right: -350px;
+    }
+
+    100% {
+        bottom: -150px;
+        right: -100px;
+    }
+}
+
+.text-6 {
+    position: relative;
+    animation: text-6 ease 5s;
+    right: -550px;
+    animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text-6 {
+    0% {
+        right: -550px;
+    }
+
+    100% {
+        right: -120px;
+    }
+}
+
+.blur {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin: -50vh 0;
+    z-index: 1000;
+    animation: blur 2s ease;
+    animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes blur {
+    0% {
+        background-color: #00000000;
+    }
+
+    50% {
+        background-color: rgb(0 0 0 / 30%);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+    100% {
+        background-color: rgb(0 0 0 / 10%);
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+    }
+}
