@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent pt-3">
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent pt-3" id="what-we-do">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="assets/img/logo.png" alt="logo" class="logo">
@@ -44,7 +44,7 @@
   </nav>
   <main class="home d-flex justify-content-center align-items-center">
     <div class="container">
-      <div class="div-1">
+      <div class="div-1"  >
         <div class="text-title">WHAT WE DO</div>
         <div class="text-description">White Script is an award-winning media company specialising in production and
           creatives. We partner with global brands, emerging businesses and networks to create exciting and meaningful
@@ -168,8 +168,8 @@
     </div>
     <img src="assets/img/bg-what-we-do.png" alt="line" class="bg-line">
     <!-- <img src="" class="scroll-down"> -->
-    <img onmouseover="hover_clients_img(this, 'assets/img/scroll-down-hover.png')" onmouseout="hover_clients_img(this, 'assets/img/scroll-down.png');"  class="scroll-down" src="assets/img/scroll-down.png" />
-    <img onmouseover="hover_clients_img(this, 'assets/img/scroll-up-hover.png')" onmouseout="hover_clients_img(this, 'assets/img/scroll-up.png');"  class="scroll-up" src="assets/img/scroll-up.png" />
+    <img onmouseover="hover_clients_img(this, 'assets/img/scroll-down-hover.png')" onmouseout="hover_clients_img(this, 'assets/img/scroll-down.png');"  class="scroll-down" src="assets/img/scroll-down.png" onclick="scroll_down()" />
+    <img onmouseover="hover_clients_img(this, 'assets/img/scroll-up-hover.png')" onmouseout="hover_clients_img(this, 'assets/img/scroll-up.png');"  class="scroll-up" src="assets/img/scroll-up.png" onclick="scroll_up()" />
     
 
   </main>
@@ -199,8 +199,15 @@
   }
 </script>
 <script>
-  var elmnt = document.getElementById("our-clients");
-  elmnt.scrollIntoView();
+  function scroll_down() {
+    var elmnt = document.getElementById("our-clients");
+  elmnt.scrollIntoView();  
+  }
+  function scroll_up() {
+    var elmnt = document.getElementById("what-we-do");
+  elmnt.scrollIntoView();  
+  }
+  
 </script>
 
 </html>
