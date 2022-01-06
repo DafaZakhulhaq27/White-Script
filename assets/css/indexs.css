@@ -1,3 +1,8 @@
 @import "fonts.css";
 @import "loaderWave.css";
 @import "navbar.css";
+.btn-primary {
+    background-color: transparent !important;
+    color: #3f567d !important;
+    border: 2px solid #3f567d !important;
+  }
