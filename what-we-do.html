@@ -7,79 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/indexs.css">
 
   <link rel="stylesheet" href="assets/css/what-we-do.css">
 
 
   <title>White Script</title>
 
-  <style>
-    .home {
-      margin-top: 30vh;
-
-    }
-    .div-1 {
-      height: 80vh;
-    }
-
-    .text-title {
-      font-family: Kentledge-Black;
-      font-size: 42px;
-      letter-spacing: 20px;
-      color: #E05131;
-    }
-
-    .text-title-2 {
-      font-family: Kentledge-Black;
-      font-size: 42px;
-      letter-spacing: 20px;
-      color: #E05131;
-    }
-
-    .text-description {
-      font-family: Kentledge-Regular;
-      font-size: 28px;
-      width: 80%;
-      margin-top: 20px;
-      line-height: 48px;
-    }
-
-    .bg-line {
-      position: absolute;
-      z-index: -1;
-      top: 0;
-      height: 200vh;
-      width: 90vw;
-    }
-
-    .scroll-down {
-      position: absolute;
-      top: 72vh;
-      right: 0;
-      margin-right: 2%;
-      height: 18vh;
-    }
-    
-    .scroll-up {
-      position: absolute;
-      top: 178vh;
-      right: 0;
-      margin-right: 2%;
-      height: 15vh;
-    }
-
-    body {
-      text-transform: none;
-    }
-
-    .row-clients .col-md-2{
-      margin: auto;
-    }
-    .mt-10{
-      margin-top: 80px;
-    }
-  </style>
+  
 </head>
 
 <body>
@@ -116,7 +51,7 @@
           experiences, whether digital or non-digital.</div>
       </div>
 
-      <div class="text-title-2">OUR CLIENTS</div>
+      <div id="our-clients" class="text-title-2">OUR CLIENTS</div>
       <div class="row mt-10 row-clients">
         <div class="col-md-2">
           <svg id="Component_226_3" data-name="Component 226 – 3" xmlns="http://www.w3.org/2000/svg" width="91.9" height="107.862" viewBox="0 0 91.9 107.862">
@@ -262,6 +197,10 @@
   function unhover_clients_img(element,src) {
     element.setAttribute('src', src);
   }
+</script>
+<script>
+  var elmnt = document.getElementById("our-clients");
+  elmnt.scrollIntoView();
 </script>
 
 </html>
