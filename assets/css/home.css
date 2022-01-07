@@ -2,11 +2,40 @@
   font-family: Kentledge-Bold;
   font-size: 42px;
   letter-spacing: 20px;
+  opacity: 0;
 }
-
 @media only screen and (max-width: 768px) {
   .banner-text {
     font-size: 24px;
     letter-spacing: 5px;
+  }
+}
+
+.fade {
+  animation: fadeIn 5s linear infinite;
+  -webkit-animation: fadeIn 5s linear infinite;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 3;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 3;
+  }
+  100% {
+    opacity: 0;
   }
 }

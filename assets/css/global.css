@@ -41,29 +41,6 @@ body {
   }
 }
 
-.fade {
-  animation: fadeIn 3s linear infinite;
-  -webkit-animation: fadeIn 3s linear infinite;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 3;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 3;
-  }
-}
-
 .bg-line {
   position: absolute;
   z-index: -1;

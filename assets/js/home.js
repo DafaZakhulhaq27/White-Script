@@ -8,12 +8,14 @@ var text = [
 
 var counter = 0;
 var elem = document.getElementById("bannerText");
-var sint = setInterval(change, 3000);
+var sint = setInterval(change, 5000);
 
 function change() {
-  if (counter > 0) {
-    elem.classList.add("fade");
-  }
+  // if (counter > 0) {
+  // elem.classList.remove("banner-text");
+  // elem.classList.add("banner-text-opacity");
+  elem.classList.add("fade");
+  // }
   elem.innerHTML = text[counter];
   counter++;
 

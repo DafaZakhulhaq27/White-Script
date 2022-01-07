@@ -6,6 +6,13 @@
     height: 31px;
   }
 }
+.navbar .btn-primary {
+  transition: 0.5s;
+}
+.navbar .btn-primary:hover {
+  background-color: #3f567d !important;
+  color: white !important;
+}
 
 .nav-item {
   margin-left: 20px;
