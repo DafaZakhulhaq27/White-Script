@@ -12,7 +12,6 @@ body {
 
 .text-1 {
     position: relative;
-    margin-left: -200px;
     left: -250px;
     top: -50px;
     animation: text-1 ease 5s;
