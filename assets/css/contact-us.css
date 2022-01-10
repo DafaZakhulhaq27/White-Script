@@ -16,12 +16,14 @@
     color: #E05131;
   }
 
-  .text-description {
+  .text-description, .text-description:hover {
     font-family: Kentledge-Bold;
     font-size: 58px;
     margin-top: 20px;
     line-height: 100px;
     letter-spacing: 5px;
+    color:#3f567d; 
+    text-decoration: none;
   }
 
   .bg-line {
