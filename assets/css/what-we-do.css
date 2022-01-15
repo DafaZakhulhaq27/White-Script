@@ -1,19 +1,11 @@
 .home {
-    margin-top: 30vh;
-
+    margin-top: 27vh;
   }
   .div-1 {
     height: 80vh;
   }
 
   .text-title {
-    font-family: Kentledge-Black;
-    font-size: 42px;
-    letter-spacing: 20px;
-    color: #E05131;
-  }
-
-  .text-title-2 {
     font-family: Kentledge-Black;
     font-size: 42px;
     letter-spacing: 20px;
@@ -56,9 +48,56 @@
     text-transform: none;
   }
 
-  .row-clients .col-md-2{
+  .row-clients .col {
     margin: auto;
   }
+
+  .row-clients .col {
+    padding: 20px;
+  }
+
   .mt-10{
     margin-top: 80px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .row-clients img {
+      width: 100px;
+    }
+
+    .text-title {
+      font-size: 48px;
+      letter-spacing: 20px;
+    }
+
+    .text-description {
+      font-size: 30px;
+      width: 80%;
+      margin-top: 20px;
+      line-height: 48px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .row-clients img {
+      width: 100px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .row-clients img {
+      width: 80px;
+    }
+
+    .text-title {
+      font-size: 18px;
+      letter-spacing: 5px;
+    }
+
+    .text-description {
+      font-size: 14px;
+      width: 80%;
+      margin-top: 20px;
+      line-height: 28px;
+    }
   }
