@@ -7,11 +7,17 @@
   }
 }
 .navbar .btn-primary {
-  transition: 0.5s;
+  color: white;
+  background: transparent; /* default color */
+
+  /* "to left" / "to right" - affects initial color */
+  background: linear-gradient(to left, transparent 50%, #3f567d 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
 }
 .navbar .btn-primary:hover {
-  background-color: #3f567d !important;
   color: white !important;
+  background-position: left;
 }
 
 .nav-item {
